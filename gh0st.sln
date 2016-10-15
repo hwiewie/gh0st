@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gh0st", "gh0st\gh0st.vcxproj", "{1A21D135-E694-4EB2-902B-B653EA966848}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E5C96CDC-B4CB-4C95-9881-1570C1219321} = {E5C96CDC-B4CB-4C95-9881-1570C1219321}
+		{9489B0E1-D735-4FB9-8074-6D8C34047BF6} = {9489B0E1-D735-4FB9-8074-6D8C34047BF6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "install", "Server\install\install.vcxproj", "{E5C96CDC-B4CB-4C95-9881-1570C1219321}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "svchost", "Server\svchost\svchost.vcxproj", "{9489B0E1-D735-4FB9-8074-6D8C34047BF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Console|x86 = Console|x86
+		Release|x86 = Release|x86
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A21D135-E694-4EB2-902B-B653EA966848}.Console|x86.ActiveCfg = Release|Win32
+		{1A21D135-E694-4EB2-902B-B653EA966848}.Console|x86.Build.0 = Release|Win32
+		{1A21D135-E694-4EB2-902B-B653EA966848}.Release|x86.ActiveCfg = Release|Win32
+		{1A21D135-E694-4EB2-902B-B653EA966848}.Release|x86.Build.0 = Release|Win32
+		{1A21D135-E694-4EB2-902B-B653EA966848}.Template|x86.ActiveCfg = Release|Win32
+		{1A21D135-E694-4EB2-902B-B653EA966848}.Template|x86.Build.0 = Release|Win32
+		{E5C96CDC-B4CB-4C95-9881-1570C1219321}.Console|x86.ActiveCfg = Template|Win32
+		{E5C96CDC-B4CB-4C95-9881-1570C1219321}.Console|x86.Build.0 = Template|Win32
+		{E5C96CDC-B4CB-4C95-9881-1570C1219321}.Release|x86.ActiveCfg = Release|Win32
+		{E5C96CDC-B4CB-4C95-9881-1570C1219321}.Release|x86.Build.0 = Release|Win32
+		{E5C96CDC-B4CB-4C95-9881-1570C1219321}.Template|x86.ActiveCfg = Template|Win32
+		{E5C96CDC-B4CB-4C95-9881-1570C1219321}.Template|x86.Build.0 = Template|Win32
+		{9489B0E1-D735-4FB9-8074-6D8C34047BF6}.Console|x86.ActiveCfg = Console|Win32
+		{9489B0E1-D735-4FB9-8074-6D8C34047BF6}.Console|x86.Build.0 = Console|Win32
+		{9489B0E1-D735-4FB9-8074-6D8C34047BF6}.Release|x86.ActiveCfg = Release|Win32
+		{9489B0E1-D735-4FB9-8074-6D8C34047BF6}.Release|x86.Build.0 = Release|Win32
+		{9489B0E1-D735-4FB9-8074-6D8C34047BF6}.Template|x86.ActiveCfg = Template|Win32
+		{9489B0E1-D735-4FB9-8074-6D8C34047BF6}.Template|x86.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
